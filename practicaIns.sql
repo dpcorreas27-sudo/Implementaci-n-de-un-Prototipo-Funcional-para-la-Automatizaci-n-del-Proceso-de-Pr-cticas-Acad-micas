@@ -95,7 +95,7 @@ CREATE TABLE `ofertapractica` (
 
 LOCK TABLES `ofertapractica` WRITE;
 /*!40000 ALTER TABLE `ofertapractica` DISABLE KEYS */;
-INSERT INTO `ofertapractica` VALUES (1,'Unidad 3 – Taller Integrador','Proyecto de desarrollo en Java y Spring para sistema de gestión de Prácticas.','2025-09-07 10:00:00'),(2,'Desarrollo software Prácticas Académicas','Proyecto de desarrollo en Java y Spring para sistema de Prácticas Académicas.','2025-09-07 10:00:00');
+INSERT INTO `ofertapractica` VALUES (1,'Desarrollo de Software Empresarial','Proyecto de desarrollo en Java y Spring Boot para sistema de gestión de inventarios.','2025-04-15 10:00:00'),(2,'Desarrollo software carnets','Proyecto de desarrollo en Java y Spring Boot para sistema de gestión de inventarios.','2025-04-15 10:00:00');
 /*!40000 ALTER TABLE `ofertapractica` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -184,7 +184,7 @@ CREATE TABLE `usuario` (
 
 LOCK TABLES `usuario` WRITE;
 /*!40000 ALTER TABLE `usuario` DISABLE KEYS */;
-INSERT INTO `usuario` VALUES (1,'Deisy','Paola','Correa','Sánchez','deisy.correa@email.com','clave123'),(2,'Cristopher','Alexandre','Restrepo','Correa','maria.lopez@email.com','password456');
+INSERT INTO `usuario` VALUES (1,'Juan','Carlos','Rodríguez','Gómez','juan.rodriguez@email.com','clave123'),(2,'María','Fernanda','López','Jiménez','maria.lopez@email.com','password456');
 /*!40000 ALTER TABLE `usuario` ENABLE KEYS */;
 UNLOCK TABLES;
 
