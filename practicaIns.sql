@@ -95,7 +95,7 @@ CREATE TABLE `ofertapractica` (
 
 LOCK TABLES `ofertapractica` WRITE;
 /*!40000 ALTER TABLE `ofertapractica` DISABLE KEYS */;
-INSERT INTO `ofertapractica` VALUES (1,'Unidad 3 – Taller Integrador','Proyecto de desarrollo en Java y Spring Boot para sistema de gestión de Prácticas.','2025-09-07 10:00:00'),(2,'Desarrollo software Prácticas Académicas','Proyecto de desarrollo en Java y Spring Boot para sistema de Prácticas Académicas.','2025-09-07 10:00:00');
+INSERT INTO `ofertapractica` VALUES (1,'Unidad 3 – Taller Integrador','Proyecto de desarrollo en Java y Spring para sistema de gestión de Prácticas.','2025-09-07 10:00:00'),(2,'Desarrollo software Prácticas Académicas','Proyecto de desarrollo en Java y Spring para sistema de Prácticas Académicas.','2025-09-07 10:00:00');
 /*!40000 ALTER TABLE `ofertapractica` ENABLE KEYS */;
 UNLOCK TABLES;
 
